@@ -378,8 +378,8 @@
         resourcesBundle = mainBundle;
     }
     
-    UIImage *imageLeftArrow = [UIImage imageNamed:@"IQButtonBarArrowLeft" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
-    UIImage *imageRightArrow = [UIImage imageNamed:@"IQButtonBarArrowRight" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+    UIImage *imageLeftArrow = [UIImage imageNamed:@"" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+    UIImage *imageRightArrow = [UIImage imageNamed:@"" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
     #else   //Minimum Target iOS7+
 
     UIImage *imageLeftArrow;
@@ -397,20 +397,20 @@
             resourcesBundle = mainBundle;
         }
         
-        imageLeftArrow = [UIImage imageNamed:@"IQButtonBarArrowLeft" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
-        imageRightArrow = [UIImage imageNamed:@"IQButtonBarArrowRight" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+        imageLeftArrow = [UIImage imageNamed:@"" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+        imageRightArrow = [UIImage imageNamed:@"" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
     }
     else
     {
-        imageLeftArrow = [UIImage imageNamed:@"IQKeyboardManager.bundle/IQButtonBarArrowLeft"];
-        imageRightArrow = [UIImage imageNamed:@"IQKeyboardManager.bundle/IQButtonBarArrowRight"];
+        imageLeftArrow = [UIImage imageNamed:@""];
+        imageRightArrow = [UIImage imageNamed:@""];
     }
 
     #endif
     
 #else   //Maximum target iOS 7
-    UIImage *imageLeftArrow = [UIImage imageNamed:@"IQKeyboardManager.bundle/IQButtonBarArrowLeft"];
-    UIImage *imageRightArrow = [UIImage imageNamed:@"IQKeyboardManager.bundle/IQButtonBarArrowRight"];
+    UIImage *imageLeftArrow = [UIImage imageNamed:@""];
+    UIImage *imageRightArrow = [UIImage imageNamed:@""];
 #endif
     
     //Previous button
@@ -495,8 +495,8 @@
         resourcesBundle = mainBundle;
     }
     
-    UIImage *imageLeftArrow = [UIImage imageNamed:@"IQButtonBarArrowLeft" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
-    UIImage *imageRightArrow = [UIImage imageNamed:@"IQButtonBarArrowRight" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+    UIImage *imageLeftArrow = [UIImage imageNamed:@"" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+    UIImage *imageRightArrow = [UIImage imageNamed:@"" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
 #else   //Minimum Target iOS7+
     
     UIImage *imageLeftArrow;
@@ -514,20 +514,20 @@
             resourcesBundle = mainBundle;
         }
         
-        imageLeftArrow = [UIImage imageNamed:@"IQButtonBarArrowLeft" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
-        imageRightArrow = [UIImage imageNamed:@"IQButtonBarArrowRight" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+        imageLeftArrow = [UIImage imageNamed:@"" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
+        imageRightArrow = [UIImage imageNamed:@"" inBundle:resourcesBundle compatibleWithTraitCollection:nil];
     }
     else
     {
-        imageLeftArrow = [UIImage imageNamed:@"IQKeyboardManager.bundle/IQButtonBarArrowLeft"];
-        imageRightArrow = [UIImage imageNamed:@"IQKeyboardManager.bundle/IQButtonBarArrowRight"];
+        imageLeftArrow = [UIImage imageNamed:@""];
+        imageRightArrow = [UIImage imageNamed:@""];
     }
     
     #endif
     
 #else   //Maximum target iOS 7
-    UIImage *imageLeftArrow = [UIImage imageNamed:@"IQKeyboardManager.bundle/IQButtonBarArrowLeft"];
-    UIImage *imageRightArrow = [UIImage imageNamed:@"IQKeyboardManager.bundle/IQButtonBarArrowRight"];
+    UIImage *imageLeftArrow = [UIImage imageNamed:@""];
+    UIImage *imageRightArrow = [UIImage imageNamed:@""];
 #endif
     
     //Previous button
